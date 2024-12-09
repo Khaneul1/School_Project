@@ -1,50 +1,62 @@
-import React, { useState } from 'react';
-import MedicineCalender from './medicine-calendar/MedicineCalendar';
-
-//달력 nav bar처럼 나타낼 것
-//내복약 / 영양제 복용 진행 상황 -> progress bar로 나타낼 것
-//사용자가 약 등록/추가 페이지에서 설정한 정보 불러와서 progress bar 밑에 다음 먹어야 할 복용약 및 시간대 렌더링
-//체중 및 운동 시간 border
+import React, { useState, useEffect } from 'react';
+import MedicationProgress from './MedicationProgress';
+import './CheckCurrentProgress.css';
 const CheckCurrentProgress = () => {
-  //약 데이터.. 우선 초기값 설정
-  const [medicineData, setMedicineData] = useState({
-    '2024-12-08': [
-      { name: '감기약', time: '16:00', progress: 70 },
-      { name: '비타민C', time: '16:30', progress: 30 },
-    ],
-    '2024-12-09': [
-      { name: '해열제', time: '08:00', progress: 50 },
-      { name: '오메가3', time: '12:00', progress: 20 },
-    ],
+  const [medications, setMedications] = useState({
+    oral: {
+      name: '내복약',
+      progress: 70, //우선 초기값 지정
+      list: [
+        {
+          time: '오후 4:00',
+          name: '감기약',
+          taken: false,
+        },
+        { time: '오후 8:00', name: '항생제', taken: false },
+      ],
+    },
+
+    supplements: {
+      name: '영양제',
+      progress: 30,
+      list: [
+        { time: '오후 4:30', name: '비타민C', taken: false },
+        { time: '오전 9:00', name: '오메가3', taken: true },
+      ],
+    },
   });
 
-  //선택된 날짜
-  const [selectedDate, setSelectedDate] = useState(
-    new Date().toLocaleDateString('ko-KR')
-  );
+  const [userStats, setUserStats] = useState({
+    weight: 70,
+    exerciseTime: 30,
+  });
 
-  //날짜 선택시 선택된 날짜 업데이트
-  const handleDateSelect = (date) => {
-    const dateString = date.toLocaleDateString('ko-KR');
-    setSelectedDate(dateString);
+  const getCurrentDate = () => {
+    const today = new Date();
+    const month = today.getMonth() + 1;
+    const date = today.getDate();
+    return `${month}. ${date}`;
   };
 
+  useEffect(() => {
+    //setMedications(newData) 여기서 데이터 업데이트!!!!
+  }, []);
+
   return (
-    <div>
-      <h3>복약 진행 상황</h3>
-      <MedicineCalender onDateSelect={handleDateSelect} />
-      <h4>{selectedDate} 약 리스트</h4>
-      <ul>
-        {medicineData[selectedDate] && medicineData[selectedDate].length > 0 ? (
-          medicineData[selectedDate].map((medicine, index) => (
-            <li key={index}>
-              {medicine.name} ({medicine.time}) - {medicine.progress}% 완료
-            </li>
-          ))
-        ) : (
-          <li>선택된 날짜에 복용할 약이 없습니다</li>
-        )}
-      </ul>
+    <div className="check-current-progress">
+      <h2>{getCurrentDate()} 오늘</h2>
+      <MedicationProgress category={medications.oral} />
+      <MedicationProgress category={medications.supplements} />
+      <div className="user-stats">
+        <div className="stat-item">
+          <span>체중</span>
+          <p>{userStats.weight} Kg</p>
+        </div>
+        <div className="stat-item">
+          <span>운동</span>
+          <p>{userStats.exerciseTime} 분</p>
+        </div>
+      </div>
     </div>
   );
 };

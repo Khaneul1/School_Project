@@ -1,0 +1,30 @@
+.check-current-progress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-stats {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.stat-item {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 7rem;
+  margin-bottom: 1rem;
+  border-radius: 0.8rem;
+  padding: 1rem;
+}
+
+.stat-item span {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #7a7a7a;
+}
+
+.stat-item p {
+  font-size: 1.2rem;
+}

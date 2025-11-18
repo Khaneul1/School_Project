@@ -9,8 +9,19 @@
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-moau.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-moau.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		3C09C7B09E084E5EBE81389B /* Freesentation-2ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F54BABAD404349BA76AB60 /* Freesentation-2ExtraLight.ttf */; };
+		403D17F1E936E5C1320E9AF2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		75FD48FCD0AE4CCFAB8A3DFE /* Freesentation-5Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37A787FB09634DAC8F2C1B8F /* Freesentation-5Medium.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		7E0D9C99B54A4819B3705AE5 /* Freesentation-6SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E505C7EBF03F43DF843C3EA6 /* Freesentation-6SemiBold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8639165747194D09957BB6B4 /* Freesentation-8ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FAE1492FB68418F959D0CCD /* Freesentation-8ExtraBold.ttf */; };
+		97812EF173554D1EB4260722 /* Freesentation-1Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6434A7570544A06B13BBF0E /* Freesentation-1Thin.ttf */; };
+		A997A2EC6BCC47489B99ADBF /* Freesentation-9Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5A51B9A86C549FDA3955ACD /* Freesentation-9Black.ttf */; };
+		C67A0E652ECC5EF800436D9C /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C67A0E642ECC5EF800436D9C /* libBVLinearGradient.a */; };
+		EED61B4248CC41BFA38DB568 /* Freesentation-3Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99B0E6A1B2FA4DFCB85AF1E5 /* Freesentation-3Light.ttf */; };
+		F1B3EFA882E54083AAD8AE65 /* Freesentation-4Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7339408368B48658A30D9E1 /* Freesentation-4Regular.ttf */; };
+		FE8233A0F7C04FC1915C43ED /* Freesentation-7Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7C7C264B0F9401098E263B4 /* Freesentation-7Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,12 +29,22 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = moau/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = moau/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = moau/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		37A787FB09634DAC8F2C1B8F /* Freesentation-5Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Freesentation-5Medium.ttf"; path = "../src/assets/fonts/Freesentation-5Medium.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-moau.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moau.debug.xcconfig"; path = "Target Support Files/Pods-moau/Pods-moau.debug.xcconfig"; sourceTree = "<group>"; };
+		3FAE1492FB68418F959D0CCD /* Freesentation-8ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Freesentation-8ExtraBold.ttf"; path = "../src/assets/fonts/Freesentation-8ExtraBold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-moau.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moau.release.xcconfig"; path = "Target Support Files/Pods-moau/Pods-moau.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-moau.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moau.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = moau/AppDelegate.swift; sourceTree = "<group>"; };
+		77F54BABAD404349BA76AB60 /* Freesentation-2ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Freesentation-2ExtraLight.ttf"; path = "../src/assets/fonts/Freesentation-2ExtraLight.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = moau/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99B0E6A1B2FA4DFCB85AF1E5 /* Freesentation-3Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Freesentation-3Light.ttf"; path = "../src/assets/fonts/Freesentation-3Light.ttf"; sourceTree = "<group>"; };
+		C67A0E642ECC5EF800436D9C /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E505C7EBF03F43DF843C3EA6 /* Freesentation-6SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Freesentation-6SemiBold.ttf"; path = "../src/assets/fonts/Freesentation-6SemiBold.ttf"; sourceTree = "<group>"; };
+		E5A51B9A86C549FDA3955ACD /* Freesentation-9Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Freesentation-9Black.ttf"; path = "../src/assets/fonts/Freesentation-9Black.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F6434A7570544A06B13BBF0E /* Freesentation-1Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Freesentation-1Thin.ttf"; path = "../src/assets/fonts/Freesentation-1Thin.ttf"; sourceTree = "<group>"; };
+		F7339408368B48658A30D9E1 /* Freesentation-4Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Freesentation-4Regular.ttf"; path = "../src/assets/fonts/Freesentation-4Regular.ttf"; sourceTree = "<group>"; };
+		F7C7C264B0F9401098E263B4 /* Freesentation-7Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Freesentation-7Bold.ttf"; path = "../src/assets/fonts/Freesentation-7Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C67A0E652ECC5EF800436D9C /* libBVLinearGradient.a in Frameworks */,
 				0C80B921A6F3F58F76C31292 /* libPods-moau.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,6 +75,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C67A0E642ECC5EF800436D9C /* libBVLinearGradient.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-moau.a */,
 			);
@@ -74,6 +97,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D25134A970E04FE388113AE6 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -95,6 +119,22 @@
 				5709B34CF0A7D63546082F79 /* Pods-moau.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D25134A970E04FE388113AE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6434A7570544A06B13BBF0E /* Freesentation-1Thin.ttf */,
+				77F54BABAD404349BA76AB60 /* Freesentation-2ExtraLight.ttf */,
+				99B0E6A1B2FA4DFCB85AF1E5 /* Freesentation-3Light.ttf */,
+				F7339408368B48658A30D9E1 /* Freesentation-4Regular.ttf */,
+				37A787FB09634DAC8F2C1B8F /* Freesentation-5Medium.ttf */,
+				E505C7EBF03F43DF843C3EA6 /* Freesentation-6SemiBold.ttf */,
+				F7C7C264B0F9401098E263B4 /* Freesentation-7Bold.ttf */,
+				3FAE1492FB68418F959D0CCD /* Freesentation-8ExtraBold.ttf */,
+				E5A51B9A86C549FDA3955ACD /* Freesentation-9Black.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +199,16 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				403D17F1E936E5C1320E9AF2 /* PrivacyInfo.xcprivacy in Resources */,
+				97812EF173554D1EB4260722 /* Freesentation-1Thin.ttf in Resources */,
+				3C09C7B09E084E5EBE81389B /* Freesentation-2ExtraLight.ttf in Resources */,
+				EED61B4248CC41BFA38DB568 /* Freesentation-3Light.ttf in Resources */,
+				F1B3EFA882E54083AAD8AE65 /* Freesentation-4Regular.ttf in Resources */,
+				75FD48FCD0AE4CCFAB8A3DFE /* Freesentation-5Medium.ttf in Resources */,
+				7E0D9C99B54A4819B3705AE5 /* Freesentation-6SemiBold.ttf in Resources */,
+				FE8233A0F7C04FC1915C43ED /* Freesentation-7Bold.ttf in Resources */,
+				8639165747194D09957BB6B4 /* Freesentation-8ExtraBold.ttf in Resources */,
+				A997A2EC6BCC47489B99ADBF /* Freesentation-9Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMPAAA4984;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = moau/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
@@ -286,6 +337,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NMPAAA4984;
 				INFOPLIST_FILE = moau/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -374,7 +426,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -439,7 +494,9 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

@@ -1,0 +1,55 @@
+.my-diary-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.diary-header h3 {
+  align-self: baseline;
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+  background-color: #a7dab8;
+  width: 4rem;
+  text-align: center;
+  padding: 0.3rem;
+  color: white;
+}
+
+.diary-user-input-section {
+  display: flex;
+  gap: 0.4rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.diary-weather-submit-btn {
+  border: none;
+  background: none;
+}
+
+.tomorrow-plan-table {
+  border-top: 1px solid #a7dab8;
+  border-bottom: 1px solid #a7dab8;
+  padding: 0.5rem;
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+.plan-title {
+  border-right: 1px solid #a7dab8;
+  width: 18.5%;
+  text-align: start;
+  padding-left: 2.2rem;
+}
+
+.plan-input {
+  padding: 0.8rem;
+  width: 100%;
+  border: none;
+  resize: none;
+  box-sizing: border-box;
+}

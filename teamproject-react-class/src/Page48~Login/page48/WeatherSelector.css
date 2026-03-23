@@ -1,0 +1,23 @@
+.weather-selector-section {
+  display: flex;
+  margin-top: 0.2rem;
+}
+
+.weather-icon-btn {
+  border: none;
+  background: none;
+  color: #a7dab8;
+  transition: color 0.3s ease;
+}
+
+.weather-icon-btn:hover {
+  color: green;
+}
+
+.weather-icon-btn:active {
+  color: green;
+}
+
+.weather-icon-btn.selected {
+  color: green;
+}

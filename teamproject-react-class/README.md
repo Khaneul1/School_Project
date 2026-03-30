@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# 📖 치매 노인을 위한 학습지 UI — React 수업 팀 프로젝트
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> 리액트 수업 팀 프로젝트 | FE 리더 담당
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+## 🔍 프로젝트 개요
 
-### `npm start`
+교수님이 제공하신 **치매 노인을 위한 학습지** 디자인 시안을 React로 구현한 팀 프로젝트입니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+페이지별로 역할을 분담하여 각자 담당 화면을 구현했으며,  
+저는 담당 페이지 구현 외에도 **팀원 코드 취합 및 배포**를 맡은 FE 리더 역할을 했습니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> 💡 주어진 시안을 최대한 충실하게 재현하는 것이 목표였기 때문에,  
+> 디자인의 창의성보다 **정확한 UI 구현과 컴포넌트 구조화**에 집중했습니다.
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🙋 내가 맡은 역할
 
-### `npm run build`
+- **본인 담당 페이지 구현:** `src/Page48~Login` 폴더 내 전체 화면
+- **FE 리더:**
+  - 팀원들이 각자 구현한 컴포넌트 코드 취합 및 충돌 해결
+  - 전체 라우팅 구조 통합
+  - 최종 배포 담당 *(현재 배포 링크 만료)*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 기술 스택
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| 기술 | 용도 |
+|---|---|
+| **React** | 컴포넌트 기반 UI 구현 |
+| **JavaScript** | 전체 로직 |
+| **CSS** | 시안 스타일 재현 |
 
-### `npm run eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📈 이 프로젝트에서 배운 것
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+이 프로젝트는 단순히 내 페이지를 만드는 것으로 끝나지 않았습니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+팀원 각자가 다른 방식으로 작성한 코드를 하나로 합치는 과정에서,  
+**코딩 스타일이 통일되지 않으면 통합이 얼마나 어려워지는지**를 직접 경험했습니다.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+변수명, 컴포넌트 구조, CSS 클래스명이 제각각인 코드를 이어 붙이면서  
+왜 팀 프로젝트에서 **코딩 컨벤션과 사전 구조 합의**가 중요한지를 몸으로 배웠습니다.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+앞으로 팀 프로젝트를 시작할 때는 코드 취합 단계를 처음부터 염두에 두고,  
+구조와 컨벤션을 먼저 맞추는 것이 가장 먼저 해야 할 일이라는 것을 알게 됐습니다.

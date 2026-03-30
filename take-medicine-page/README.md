@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 💊 MediCheck — 약 복용 관리 앱
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> 소프트웨어공학 팀 프로젝트 | 반영 비율 60% | **A 학점**
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+## 🔍 왜 만들었나요?
 
-### `npm start`
+약을 사다 놓고 그냥 두는 경우, 많지 않으신가요?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+이름이 표기되지 않은 약은 며칠 지나면 무슨 약인지 기억이 나지 않습니다.  
+특정 성분에 민감한 사람이라면 약을 복용하기 전에 성분을 확인하고 싶어도, 어디서 찾아야 할지 막막합니다.  
+복용 시간을 잊어버려 챙겨 먹지 못하는 일도 흔합니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**MediCheck**는 이런 불편함을 해결하기 위해 기획한 약 복용 관리 어플리케이션입니다.
 
-### `npm test`
+- 약 이름으로 검색하면 성분·효능·주의사항을 바로 확인
+- 복용 중인 약을 등록하고 복용 알림으로 챙기기
+- 진행 상태와 마이페이지로 내 복용 기록 한눈에 관리
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+## 🙋 내가 맡은 역할
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+팀 구성상 프론트엔드를 전담하다시피 했으며, 기존 디자인을 전면 수정해 UI 완성도를 끌어올렸습니다.  
+**전체 프론트엔드 기여율 약 80~85%.**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+직접 구현한 화면:
+- **마이페이지** — 사용자 정보, 복용 기록 요약
+- **진행 상태 화면** — 복용 완료·미완료 현황 시각화
+- **알림 설정 화면** — 복용 시간 알림 토글 배치 및 UX 설계
+- **약 검색 화면** — 약 이름으로 검색, 결과 리스트 렌더링, 상세 조회 화면  
+  *(약 검색 API 연동은 백엔드 개발자 담당)*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+## 🛠 기술 스택
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| 기술 | 용도 |
+|---|---|
+| **React** | 컴포넌트 기반 UI 구현 |
+| **JavaScript** | 전체 로직 구현 |
+| **CSS** | 화면 스타일링 |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> 백엔드 API 연동은 백엔드 개발자가 담당했으며,  
+> 프론트엔드는 UI 구현 및 상태 관리에 집중했습니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ✨ 주요 기능
 
-## Learn More
+- 🔍 약 이름 검색 및 성분·효능·주의사항 상세 조회
+- 🔔 복용 알림 설정 (토글 UI)
+- 📊 복용 진행 상태 확인
+- 👤 마이페이지 — 복용 기록 요약 및 사용자 정보
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🏆 결과
 
-### Code Splitting
+- 소프트웨어공학 팀 프로젝트 반영 비율 **60%**, 최종 **A 학점**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br>
 
-### Analyzing the Bundle Size
+## 📈 이 프로젝트에서 배운 것
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+이 프로젝트는 처음으로 **기존에 다른 사람이 만들어 둔 디자인을 전면 수정**해본 경험이었습니다.
 
-### Making a Progressive Web App
+처음 UI를 받았을 때 사용자 입장에서 불편하게 느껴지는 부분들이 눈에 들어왔고, "일단 동작하게만 만들자"가 아니라 **"사용자가 편하게 쓸 수 있는 화면을 만들자"** 는 방향으로 전면 수정을 결정했습니다.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+알림 설정 화면의 토글 배치 하나, 진행 상태 화면의 시각적 구분 방식 하나에도 사용자 관점에서 고민한 흔적이 담겨 있습니다.
